@@ -11,10 +11,9 @@ import Ending from "./views/Ending";
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
-              <Route index element={<Navigate to="/main" />} />
-              <Route path="/main" element={<Main />} />
+              <Route path="/" element={<Main />} />
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/photo" element={<Photo />} />
               <Route path="/quiz2" element={<Quiz2 />} />
