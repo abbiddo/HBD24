@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ending-body{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    background-size: 100% 100%;
+    background-image: url("../images/blackboard.jpg");
+
+    font-family: 'Ownglyph_meetme-Rg';
+}
+
+.ending-review{
+    padding: 120px 0 20px 0;
+    font-size: 30px;
+}
+
+.ending-review h4{
+    margin: 15px;
+    color: #d0d0d0;
+    font-weight: 10;
+}
+
+.ending-link{
+    color: #f0f0f0;
+    margin: 20px;
+}

@@ -1,0 +1,58 @@
+.candle-body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+.candle-boxes{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+}
+
+.candle-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.candle-btn-box {
+    width: 60px;
+    height: 80px;
+    margin-right: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.candle-candle{
+    width: auto;
+    height: 200px;
+}
+
+.candle-button{
+    width: 60px;
+    height: 80px;
+
+    position: absolute;
+    bottom: 0;
+
+    background-image: url("../images/fire.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+.candle-button:hover{
+    cursor: pointer;
+}
