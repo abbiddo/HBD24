@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://abbiddo.github.io/HBD24/",
   "eslintConfig": {
     "extends": [
       "react-app",
