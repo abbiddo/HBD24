@@ -11,7 +11,7 @@ const Quiz = () => {
     const handleSubmit = () => {
         if (answer === '502'){
             alert("딩동댕! 오늘은 502일이야💙");
-            window.location.href = '/photo';
+            window.location.href = '#/photo';
         }
         else
             alert("땡! 😛");

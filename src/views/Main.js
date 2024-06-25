@@ -97,10 +97,10 @@ const Main = () => {
     };
 
     const handleButtonClick = () => {
-        window.location.href = '/quiz';
+        window.location.href = '#/quiz';
     };
 
-    const isButtonActive = !isDragging && year === 1999 && currentDate.getMonth() === 5 && currentDate.getDate() === 29;
+    const isButtonActive = !isDragging && year === 2024 && currentDate.getMonth() === 5 && currentDate.getDate() === 29;
 
     return (
         <div className="main-body">

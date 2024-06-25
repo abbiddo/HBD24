@@ -11,7 +11,7 @@ const Quiz2 = () => {
     const handleSubmit = () => {
         if (answer === '18'){
             alert("딩동댕! Easy 하지?");
-            window.location.href = '/cake';
+            window.location.href = '#/cake';
         }
         else
             alert("땡! 😛");

@@ -30,7 +30,7 @@ const Button = ({ id, x, y }) => {
     const handleClick = () => {
         if (id === 0) {
             alert("아이스박스 당첨!");
-            window.location.href = '/candle';
+            window.location.href = '#/candle';
         } else {
             alert("우리의 케이크를 찾아줘🎂");
         }

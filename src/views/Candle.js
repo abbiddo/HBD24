@@ -35,7 +35,7 @@ const Candle = () => {
 
     const checkButtonClicks = () => {
         alert("후~ 생일 축하해 🤍🎉");
-        window.location.href = '/letter';
+        window.location.href = '#/letter';
     };
 
     return (

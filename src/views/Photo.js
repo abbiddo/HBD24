@@ -27,7 +27,7 @@ const Photo = () => {
     const handleSubmit = () => {
         if (answer === '72365814'){
             alert("유후! 좀 치는데?");
-            window.location.href = '/quiz2';
+            window.location.href = '#/quiz2';
         }
         else
             alert("으잇! 😣");

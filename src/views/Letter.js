@@ -3,7 +3,7 @@ import "../css/letter.css";
 const Letter = () => {
 
     const handleButtonClick = () => {
-        window.location.href = '/ending';
+        window.location.href = '#/ending';
     };
 
     return (

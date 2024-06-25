@@ -1,4 +1,4 @@
-import {Routes, Route, BrowserRouter, Navigate} from "react-router-dom";
+import {Routes, Route, Navigate, HashRouter} from "react-router-dom";
 
 import Main from "./views/Main";
 import Quiz from "./views/Quiz";
@@ -11,9 +11,10 @@ import Ending from "./views/Ending";
 
 function App() {
   return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
           <Routes>
-              <Route path="/" element={<Main />} />
+              <Route index element={<Navigate to="/main" />} />
+              <Route path="/main" element={<Main />} />
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/photo" element={<Photo />} />
               <Route path="/quiz2" element={<Quiz2 />} />
@@ -22,7 +23,7 @@ function App() {
               <Route path="/letter" element={<Letter />} />
               <Route path="/ending" element={<Ending />} />
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 

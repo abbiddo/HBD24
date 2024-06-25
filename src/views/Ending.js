@@ -3,10 +3,6 @@ import "../css/ending.css";
 
 const Ending = () => {
 
-    const handleButtonClick = () => {
-        window.location.href = '/quiz';
-    };
-
     return (
         <div className="ending-body">
             <div className="ending-review">
@@ -19,13 +15,13 @@ const Ending = () => {
                 <h4>그래서 개발자의 엔딩 크레딧은 퀴즈판을 재탕했어 ^3^ 이거 구현만큼 구상도 오래 걸렸다구,,,</h4>
                 <h4>그리고 만들면서 든 생각은 우리 같이 찍은 사진이 그림자 뿐이더라고 이상한 사진은 엄청 많은데ㅋㅋㅋㅋㅋ</h4>
                 <h4>여기까지 잘 즐겨줘서 고맙고 가끔 생각날 때 종종 들려줘💙 사랑해❤ 생일 축하해 오빠😍</h4>
-                <a href="/main" className="ending-link">우주</a>
-                <a href="/quiz" className="ending-link">퀴즈</a>
-                <a href="/photo" className="ending-link">사진</a>
-                <a href="/quiz2" className="ending-link">퀴즈2</a>
-                <a href="/cake" className="ending-link">케잌</a>
-                <a href="/candle" className="ending-link">촛불</a>
-                <a href="/letter" className="ending-link">편지</a>
+                <a href="#/main" className="ending-link">우주</a>
+                <a href="#/quiz" className="ending-link">퀴즈</a>
+                <a href="#/photo" className="ending-link">사진</a>
+                <a href="#/quiz2" className="ending-link">퀴즈2</a>
+                <a href="#/cake" className="ending-link">케잌</a>
+                <a href="#/candle" className="ending-link">촛불</a>
+                <a href="#/letter" className="ending-link">편지</a>
             </div>
         </div>
     );
